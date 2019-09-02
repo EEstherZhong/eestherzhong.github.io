@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>通过数据挖掘，我们研究了完美日记的两大增长策略 | 电商笔记</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="转载">
+  
+  
+  
+  
+  <meta name="description" content="如果你对美妆产品略知一二，就一定听说过这个号称“国货之光”的品牌 - 完美日记。就在上个月，它又获得了新一轮融资，估值已经超过10亿美金。 虽然完美日记主打的唇膏、唇釉、眼影等彩妆产品的市场竞争十分激烈，但下面这张销量数据图却清晰的显示，它正以惊人的增长速度杀出重围： 仅用8个月时间，销量增长了近50倍，不但力压美康粉黛等国货同行，而且全面赶超YSL、SK-II等国际大牌。在2018年，完美日记仅">
+<meta name="keywords" content="转载">
+<meta property="og:type" content="article">
+<meta property="og:title" content="通过数据挖掘，我们研究了完美日记的两大增长策略">
+<meta property="og:url" content="http://yoursite.com/2019/09/02/growthbox/index.html">
+<meta property="og:site_name" content="电商笔记">
+<meta property="og:description" content="如果你对美妆产品略知一二，就一定听说过这个号称“国货之光”的品牌 - 完美日记。就在上个月，它又获得了新一轮融资，估值已经超过10亿美金。 虽然完美日记主打的唇膏、唇釉、眼影等彩妆产品的市场竞争十分激烈，但下面这张销量数据图却清晰的显示，它正以惊人的增长速度杀出重围： 仅用8个月时间，销量增长了近50倍，不但力压美康粉黛等国货同行，而且全面赶超YSL、SK-II等国际大牌。在2018年，完美日记仅">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/01.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/02.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/031.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/04.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/05.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/06.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/07.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/08.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/09.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/10.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/11.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/12.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/13.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/14.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/15.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/16.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/17.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/18.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/19.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/20.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/21.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/22.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/23.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/24.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/25.png">
+<meta property="og:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/26.png">
+<meta property="og:updated_time" content="2019-09-02T16:24:20.314Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="通过数据挖掘，我们研究了完美日记的两大增长策略">
+<meta name="twitter:description" content="如果你对美妆产品略知一二，就一定听说过这个号称“国货之光”的品牌 - 完美日记。就在上个月，它又获得了新一轮融资，估值已经超过10亿美金。 虽然完美日记主打的唇膏、唇釉、眼影等彩妆产品的市场竞争十分激烈，但下面这张销量数据图却清晰的显示，它正以惊人的增长速度杀出重围： 仅用8个月时间，销量增长了近50倍，不但力压美康粉黛等国货同行，而且全面赶超YSL、SK-II等国际大牌。在2018年，完美日记仅">
+<meta name="twitter:image" content="http://ansiz.motherland-flower.cn//esther/2019/09/01.png">
+  
+    <link rel="alternate" href="/atom.xml" title="电商笔记" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+  
+    <link rel="stylesheet" href="/css/dialog.css">
+  
+
+  
+
+  
+    <link rel="stylesheet" href="/css/header-post.css">
+  
+
+  
+  
+  
+
+</head>
+</html>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+  <div id="container">
+    <div id="wrap">
+      
+        <header>
+
+    <div id="allheader" class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-inner">
+          
+          <div class="container"> 
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            
+              <a class="brand" style="
+                 margin-top: 0px;"  
+                href="#" data-toggle="modal" data-target="#myModal" >
+                  <img width="124px" height="124px" alt="Hike News" src="/css/images/mylogo.jpg">
+              </a>
+            
+            
+            <div class="navbar-collapse collapse">
+              <ul class="hnav navbar-nav">
+                
+                  <li> <a class="main-nav-link" href="/">Home</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/archives">Archives</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/categories">Categories</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/tags">Tags</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/about">About</a> </li>
+                
+                  <li><div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div></li>
+            </div>
+          </div>
+                
+      </div>
+    </div>
+
+</header>
+
+
+
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-growthbox" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" class="article-title" itemprop="name">
+      通过数据挖掘，我们研究了完美日记的两大增长策略
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2019/09/02/growthbox/" class="article-date">
+	  <time datetime="2019-09-02T15:57:03.000Z" itemprop="datePublished">2019-09-02</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/电商/">电商</a>
+
+      
+	<a class="article-views">
+	<span id="busuanzi_container_page_pv">
+		PV:<span id="busuanzi_value_page_pv"></span>
+	</span>
+	</a>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>如果你对美妆产品略知一二，就一定听说过这个号称“国货之光”的品牌 - 完美日记。就在上个月，它又获得了新一轮融资，估值已经超过10亿美金。</p>
+<p>虽然完美日记主打的唇膏、唇釉、眼影等彩妆产品的市场竞争十分激烈，但下面这张销量数据图却清晰的显示，它正以惊人的增长速度杀出重围：</p>
+<p><strong>仅用8个月时间，销量增长了近50倍</strong>，不但力压美康粉黛等国货同行，而且全面赶超YSL、SK-II等国际大牌。在2018年，完美日记仅在天猫的GMV就高达6.5亿元。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/01.png" alt="数据来源：天猫，电商魔镜"></p>
+<p>要知道，<strong>2016年这个品牌才刚刚诞生，2017年才有了天猫旗舰店</strong>。而在2018年天猫双11，第一次参与该活动的完美日记 ，仅用90分钟即突破1亿销售额；从2019年1月到4月，完美日记一直稳居天猫美妆销量第一；到了2019年天猫618，完美日记第一小时就荣登天猫彩妆Top1。</p>
+<p>完美日记如此火爆，人们纷纷开始研究其背后的增长策略，一时间关于完美日记的分析也是铺天盖地。大家也许都从市面上的文章中了解过，完美日记最重要的策略就是小红书投放和完善的用户运营体系。</p>
+<p>然而，完美日记究竟是如何做投放的？用什么方式来运营用户？从来没有人分析出这些策略的落地细节。</p>
+<p>因此，我们决定从数据的角度出发，深入挖掘完美日记的小红书KOL投放、微信私域流量运营，看看它们是如何在完美日记的增长中发挥作用的，以及具体的执行方法是什么。</p>
+<h2 id="1-小红书KOL投放"><a href="#1-小红书KOL投放" class="headerlink" title="1.小红书KOL投放"></a>1.小红书KOL投放</h2><p>小红书上，完美日记官方号拥有 168 万粉丝，全平台笔记数12万+条，总曝光量上亿，远超百雀羚、欧莱雅等品牌。在完美日记的招聘广告中，“KOL投放”这个岗位唯独看重候选人在小红书的投放经验，可见其对于小红书运营的重视程度。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/02.png" alt="数据来源：天猫，电商魔镜"></p>
+<p>为了研究完美日记在小红书的投放规律，我们搜集了小红书全平台百万账号的数据，并从中筛选出与完美日记强相关的上千个账号以及45000条笔记内容。</p>
+<p>我们发现，在2017年7月天猫店刚上线的几个月时间内，完美日记的销售量其实一直没什么起色。而最关键的转折点，就是2018年2月，完美日记将小红书作为重点渠道开始运营，并加大了投放力度，随后其销量开始快速上升。此时，数据显示完美日记还没有抖音账号，微博也没有维护，而B站也并未进行运营。</p>
+<h3 id="怎么投？"><a href="#怎么投？" class="headerlink" title="怎么投？"></a>怎么投？</h3><p>我们先来考察下声量的变化（即笔记留言+点赞+收藏的总量），因为投放的效果直接反应到声量上 - 而通过不同时期声量的差异变化，则能够推断其投放行为的规律。数据显示，完美日记在每年3-4月、8-9月的声量有明显的增长。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/031.png" alt="小红书，千瓜数据"></p>
+<p>我们再从完美日记在小红书全平台的笔记总数来看。如图所示，上述时间段内，完美日记相关的笔记数量有着明显的阶梯式增长，证明这个时期存在密集的投放行为。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/04.png" alt="小红书，千瓜数据"></p>
+<p>为什么完美日记的投放时间会集中在这几个月呢？从电商运营的角度，这或许比较简单：在618、双十一之前开始造势。但我们回归到产品层面来看，却发现完美日记的上新周期，也集中在这几个节点。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/05.png" alt="天猫，天灏资本 T. H. Capital, LLC"></p>
+<p>最后，我们从GMV数据上可以看到，产品上新的时间周期内，销量就有一定的提升了。<strong>但真正爆发式增长，还是集中在后续的618和双11大促。</strong></p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/06.png" alt="天猫，天灏资本 T. H. Capital, LLC"></p>
+<p>结合其它线索，我们可以初步推断：<strong>完美日记将产品发售和大促预热集中在一个节点，通过小红书投放打造爆款，并通过后续大促快速冲刺销量。</strong></p>
+<p>那么，既然这些时间段上新这么多款产品，到底怎么安排投放的内容呢？我们挑选了部分上线第一个月销量就相对可观的产品，并分析了它们相关笔记数在当月总笔记的比值 - 超过一半的产品在当月笔记占比中是排名第一的。<strong>很明显，完美日记在小红书的投放，每个时期都集中在1-2个产品，爆款的目标非常明确。</strong>而在后续时间内，产品的销量均能获得大幅拉升，证明大部分爆款都打造成功了。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/07.png" alt="小红书，千瓜数据"></p>
+<p>为了进一步展示完美日记的投放策略，我们选取了今年三月份的爆款——探险家十二色动物眼影作为例子展开来看。</p>
+<p>通过微博显示，完美日记3月13号正式推出探险家十二色动物眼影（小红书上是15日公布）。但在13日前，就已经有动物眼影相关帖子分享了。我们将探险家十二色动物眼影分为产品上线前期，中期，后期三个时间点分别进行分析。</p>
+<p>上线前期(3.5-3.15)：探险家十二色动物眼影在天猫上进行预售，多位百万级粉丝的博主发布相关产品分享贴，均取得大量的关注。其中，126.9万粉丝的博主“是三岁啊”在3月5日便发布了相关安利贴。      </p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/08.png" alt="小红书，千瓜数据"></p>
+<p>上线中期(3.16-3.31)：完美日记官方账号推出 #探险家动物眼影# 话题分享，转发抽奖等活动。同时，多位5-50万粉丝的博主分享产品测评，妆容效果相关内容。@胖着那 @猫抖抖  @裴幸運 @一只卷卷 @宅大圣等博主作为主要节点进行传播。</p>
+<p>上线后期(4.1-4.15)：内容主要以化妆教程，妆容分享来推荐探险家动物眼影。同时，也会出现相关大量300-5000粉丝的博主产品反馈贴来塑造一种良好口碑的场景。当然，此时会有部分5-50万粉丝的博主进行相关分享，以维持产品的讨论热度。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/09.png" alt="小红书，千瓜数据"></p>
+<p>到5月份笔记数骤降，证明没有进行大量笔记投放。</p>
+<p>而同样的策略，我们在另一个爆品“马赛克小方块”上也能看到 - 这是完美日记在小红书上的一种常规爆品打法。</p>
+<p>至此，我们可以得到一个相对完整的策略：完美日记每年3/4月和9/10月上线大量新品，在一个月的时间里，依靠小红书，微博，抖音等平台打造1-2个爆款，从前期造势，到后期维护运营，总共用时一个半月左右。然后，利用天猫618和双11活动的巨大势能，把产品销量推到一个较高的水平。在产品质量和用户需求的把控，也让完美日记的爆款具有更长久的吸引力，因而，完美日记销量上去之后，并没有滑坡式下降，反而呈现阶梯式上升的情况。</p>
+<p>关于做爆款的效果，销量情况也给出了答案。十二色动物眼影盘自从上线后，销量从未跌出过完美日记官方店的前10。做出一个爆款，就等于拥有了一颗摇钱树，在长时间里带来高销量，而且还能带动其他产品的销售。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/10.png" alt="数据来源：天猫，天灏资本 T. H. Capital, LLC"></p>
+<h3 id="投给谁？"><a href="#投给谁？" class="headerlink" title="投给谁？"></a>投给谁？</h3><p>既然明确了完美日记的集中式投放策略，那接下来的问题就是完美日记如何选择投放目标。</p>
+<p>首先，我们首先对账号以粉丝量级进行分类，主要分为</p>
+<ul>
+<li>明星（认证，如朱正廷）</li>
+<li>知名KOL（加v认证，如：李佳琦）</li>
+<li>头部达人(粉丝数&gt;50万）</li>
+<li>腰部达人（5万&lt;粉丝数&lt;50万）</li>
+<li>初级达人（5k&lt;粉丝数&lt;5万）</li>
+<li>素人（300&lt;粉丝数&lt;5k）</li>
+<li>路人（小于300粉丝）</li>
+</ul>
+<p>我们发现，完美日记<strong>并非是一味在寻求大牌明星的代言，而是广泛投放腰部以下的小众KOL。其自上而下的投放比例为：1：1：3：46：100：150。</strong>对于“路人“类型来说，基本上属于用户的自发传播。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/11.png" alt="数据来源：小红书，千瓜数据"></p>
+<p>从声量的组成来看，<strong>完美日记声量的主要提供者是初级达人和腰部达人。</strong>再从十二动物眼影这个爆款声量来看，同样符合分布趋势。路人粉丝的量级看起来很大，但实际上并不能对声量起到多大贡献；<strong>明星和知名KOL，带来的声量反而微乎其微。</strong></p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/12.png" alt="数据来源：小红书，千瓜数据"></p>
+<p>这样看来，我们也可以推测这种就“金字塔式”投放策略完全是基于人们”跟风“的心理：</p>
+<p>1.首先与明星和知名KOL合作，但数量非常少。主要目的是把声势造起来。<br>2.其次，由于头部达人会跟风明星，再跟他们谈合作，条件会更宽松<br>3.然后，腰部达人和初级达人会跟风头部达人、明星，与他们的合作就非常容易了<br>4.最后，营造出所有人都在用完美日记产品的盛况，导致普通用户跟风晒出自己的笔记</p>
+<p>那么，具体哪些KOL接了完美日记的广告？谁最受完美日记的青睐？我们经过多方面验证，推断以下用户群体为完美日记投放的目标：</p>
+<ol>
+<li>完美日记小红书账号笔记里多次提到的小红书用户</li>
+<li>多次写完美日记分享的用户</li>
+<li>最早体验并分享完美日记新品的用户</li>
+</ol>
+<p>通过分析完美日记小红书发布的所有笔记，我们理出了一份投放目标名单（部分）。可以看到，<strong>同期对比2018年和2019年，完美日记在小红书上投放的KOL数量明显上升。</strong></p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/13.png" alt="数据来源：小红书，千瓜数据"></p>
+<p>下面为投放名单的top10：</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/14.png" alt="数据来源：小红书，千瓜数据"></p>
+<p>另外，我们又通过爆款的商品找到当时写过小红书笔记的头部用户（此处展示部分）</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/15.png" alt="数据来源：小红书，千瓜数据"></p>
+<p>横向对比这些KOL，我们发现一个规律：<strong>完美日记可能更倾向于广泛的进行投放，大部分KOL与完美日记的合作次数都在3-6次，而少量高价值的KOL会反复投放。</strong>可以看到，2018年到2019年的增量部分的KOL也是集中在3-6次合作区间。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/16.png" alt="数据来源：小红书，千瓜数据"></p>
+<p>这样来看，<strong>我们可以根据KOL的发布频率来找到完美日记投放效果好的那部分KOL</strong>（下图部分展示）。此数据也再次验证了前文提到的结论：完美日记主要依靠腰部KOL进行投放。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/17.png" alt="数据来源：小红书，千瓜数据"></p>
+<h2 id="2-微信私域流量"><a href="#2-微信私域流量" class="headerlink" title="2.微信私域流量"></a>2.微信私域流量</h2><p><strong>比起如何快速拉升用户量，后续的留存和复购显然更加重要</strong> - 这就是为什么“私域流量”的概念会被炒火。而对于消费品来说，用微信个人号来打造私域流量自然是最佳的解决方案。</p>
+<p>同样，从完美日记的招聘信息中就可以找到线索：比如“安卓开发工程师”这个岗位，任职要求中提到的Xpose技术，它最广泛的应用便是“微信群控”。而文中提到的逆向开发，更是建立群控系统的基础。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/18.png" alt="img"></p>
+<p>下面我们就来研究下完美日记的微信号体系。</p>
+<h3 id="如何建立"><a href="#如何建立" class="headerlink" title="如何建立"></a>如何建立</h3><p>首先，其建立私域流量的目的并不是用来获取新用户的，而是想办法留住已经购买过产品的老用户。从流程上我们就可以看出来：</p>
+<ol>
+<li>购买完美日记的产品后，随包裹附送一张“红包卡”，刮开图层可获得特殊口令</li>
+<li>扫码关注公众号</li>
+<li>公众号立刻推送一个页面，包含个人号二维码</li>
+<li>添加个人号后收到一个小程序二维码</li>
+<li>扫码并输入口令，即可领1-2元红包</li>
+</ol>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/19.png" alt="img"></p>
+<p>这样看来，<strong>仅需花费1-2元成本</strong>，就可以获得一个公众号粉丝、一个个人号好友、一个群成员，性价比实在是高。</p>
+<p>那么，<strong>这套私域流量系统的建设效率如何呢？完美日记究竟有多少个人号在运作？</strong></p>
+<p>通过对其技术架构的研究，配合简单的代码，<strong>我们得以回溯出完美日记过去曾经用过的个人号</strong>（很可能是加满了）。由于时间关系，我们暂时找出了几十个，不过足以说明问题：</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/20.png" alt="img"></p>
+<p>保守估计，<strong>完美日记有上百个个人号，其统一标识为“小完子”这个人设。按照3000人/号的标准来计算，处于”私域“的粉丝量应该在近百万级别</strong>。按照2017年中国化妆品人均260元/年的消费水平来估算，这个流量池具有每年近亿元的消费潜力！这样庞大的体量和商业价值，也难怪完美日记舍得花费成本，自行开发群控系统了。</p>
+<p>从另一方面来看，<strong>这些微信号不仅具有关键词回复、拉群等自动化流程，其背后还有真实的客服在手动回复</strong>。二者结合，不仅能保证效率，还能保证服务质量。我们特意挑选了一些角度刁钻的问题，都迅速得到了合理的答复 - 如果这是个机器人的话，那证明它已经通过图灵测试了！</p>
+<h3 id="如何运营"><a href="#如何运营" class="headerlink" title="如何运营"></a>如何运营</h3><p>当然，完美日记的运营策略还没结束。把用户拉进自己的”私域“里，只完成了第一步，<strong>后续还需要持续不断的运营，才能起到留存的目的。</strong>基于个人号，完美日记的运营方向主要有两个：</p>
+<p><strong>首先是微信群</strong>。在第一步添加”小完子“后，用户就会收到加群的邀请，统一命名为”小完子玩美研究所“ - 这样就生成了数千个微信群。我们发现，其微信群的运营实际上是围绕多个小程序来进行的。通过”小完子“这个人设，打造出高质量的美妆内容，每天发布到小程序上，然后再转发到群里，引发用户持续关注和讨论。直播、抽奖等活动也会不断发布到群里。另外，各种用户调研、市场调研也可以在群里进行，极大方便了产品自身的迭代优化。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/21.png" alt="img"></p>
+<p>其次是朋友圈。大家一定很好奇，为什么完美日记要用“小完子”来统一所有的微信号？原因很简单，就是通过打造人设，让用户产生信任。当你首次添加微信号时，“小完子”的第一句话就是：“我真的不是机器人！”。而不论是小程序和朋友圈，“小完子”都是真人出镜，让大家看到了一个有血有肉的妹子，你的“私人美妆顾问”。</p>
+<p>“小完子”不但会在朋友圈中发布各种日常自拍，还有新产品发布、抽奖活动等等，很大程度上影响了用户的购买决策。</p>
+<p>我这里就引用一位老朋友、女性市场营销专家Doris的一段话来形容：</p>
+<blockquote>
+<p>“当我加到这个微信号时，本以为只是个平平无奇的客服微信号，结果发现是一个小IP，叫小完子。小完子竟然有一个真人形象担当，就是这个女生…她的朋友圈精心运营，一天2-3条，仿佛就是一个喜欢化妆的女生的日常。这哪是客服号，不如说就是在培养「素人博主KOC」</p>
+<p>KOC（Key Opinion Customer）是最近很火的另一个词，素人博主不像KOL有很大的流量，KOC像是你信任的朋友，她可以影响你买买买。”<br>刀姐Doris</p>
+</blockquote>
+<p>让我比较惊讶的是，各个微信号的朋友圈并不是机械的同步，而是具备一定差异化。这可能意味着，完美日记具备了在私域流量内进行<strong>用户分群（segmentation）的能力</strong>，即根据用户兴趣，差异化展示内容。这种精细化运营的方式，无疑是提高付费转化的另一大利器 。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/22.png" alt="img">   </p>
+<h3 id="如何转化"><a href="#如何转化" class="headerlink" title="如何转化"></a>如何转化</h3><p>说到底，<strong>积累流量的最终目的还是为了销售转化</strong>。经过长期的用户孵育，完美日记的复购转化也是水到渠成的事情。我们观察到其主要的转化方式有三种：</p>
+<p>朋友圈秒杀广告、微信群推送、个人号私聊推送，以促销活动为主。比较有意思的是，“小完子”在发广告的时候，<strong>并不是生硬的推一个链接，而是引导用户主动表达购买意愿</strong>，有兴趣再发链接。比如下图中回复特定数字的形式。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/23.png" alt="img">  </p>
+<p>而由于微信和天猫无法互通，其购买渠道是通过有赞商城来完成的。但值得注意的是，社群中推送的购买链接，并不是引导到完美日记的官方旗舰店，而是到“小完子旗舰店”下单。更重要的是，我们发现每个群（群主是不同的小完子微信号）推送的商品链接中，均附带不同的UTM代码。这可能说明，每个账号背后的运营人员，都背了一定的销售KPI，而UTM正是用来追踪他们的业绩。</p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/24.png" alt="img"></p>
+<h2 id="3-总结"><a href="#3-总结" class="headerlink" title="3. 总结"></a>3. 总结</h2><p>通过以上的研究，我们从单点出发，梳理了完美日记增长的两个关键手段：</p>
+<p>1.<strong>小红书KOL投放：目的在于规律性的打造爆款</strong>。在618和双11两次大促前两个月开启上新，挑选1-2个有潜力的产品集中投放。其中，预热半个月，维持热度一个月，跨度为一个半月。在KOL选择上，完美日记采用了典型的金字塔式结构，由少量头部KOL来带动，但主要声量都来自于腰部和初级KOL。通过2018年的探索，完美日记已经能够筛选出效果好的KOL，并在2019年加大力度重复投放。实际上，KOL投放并不是直接的购买转化手段，而是通过制造品牌认知和购买欲望，最终在天猫上成交。</p>
+<p>2.<strong>微信私域流量的运营</strong>：目的在于提高用户的留存和复购。首先通过实体商品中的卡片引导用户添加微信个人号，用领红包的方式提高用户添加意愿。完美日记拥有大量个人号，可以通过页面二维码灵活切换，从而构建出几十万的微信好友流量池，同时利用自动化回复提高了运营效率。其次，通过私聊引导已购用户加入微信群，并利用小程序中的高质量内容不断吸引用户关注。随后，通过打造“小完子”这个KOC的朋友圈人设，能够有效营销用户的购买决策。最终，把产品以促销的方式同步在朋友圈和微信群，引导最终的复购行为。</p>
+<p>基于各个要点，我们可以把完美日记此处的增长策略总结为“公私合营，手自一体”：</p>
+<p><strong>通过所谓公域流量（小红书+天猫）获取新用户和成交，然后利用私域流量（微信生态）的运营提升用户的生命周期价值，并借助人工+自动化的方式提升运营效率。</strong></p>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/25.png" alt="img"></p>
+<p>当然，完美日记的成功之处肯定不止上述两点，一套完整的”组合拳“才能将它推动到今天的位置 - 消费品公司的运营战略是非常复杂的，这其中还要涉及物流、供应链、客服、产品质检、渠道管理等等，每一项都是”硬壁垒“。但是，从细节入手，我们依然可以从中获得有价值的启发：</p>
+<ol>
+<li><p>小红书KOL投放能够对产品销售起到积极的作用，尤其是在爆款打造上。此时平台红利还未完全消失，我们应该去积极尝试。</p>
+</li>
+<li><p>可以通过参考完美日记的投放对象，来寻找适合自己的投放目标，提升投放效率。腰部和初级的KOL可能成为性价比最高的选择。</p>
+</li>
+<li><p>一味的拉新获客并不能带来持续的增长动力，通过合理的手段留存老用户才能够获得长期收益。因此，利用微信搭建自己的私域流量可能是一种高性价比的方式。</p>
+</li>
+<li><p>”加好友“仅仅是构建私域流量的第一步，我们还需要微信群、朋友圈等形式来不断发布内容，让用户持续关注，并通过人工服务和用户建立深度连接。人设建立的好，干货分享的多，发广告才会有转化 - 想要收获，必先付出。</p>
+</li>
+</ol>
+<p><img src="http://ansiz.motherland-flower.cn//esther/2019/09/26.png" alt="img"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      <div>
+        <ul class="post-copyright">
+          <li class="post-copyright-author">
+          <strong>Post author:  </strong>种一棵树最好的时间是十年前，其次是现在</a>
+          </li>
+          <li class="post-copyright-link">
+          <strong>Post link:  </strong>
+          <a href="/2019/09/02/growthbox/" target="_blank" title="通过数据挖掘，我们研究了完美日记的两大增长策略">http://yoursite.com/2019/09/02/growthbox/</a>
+          </li>
+          <li class="post-copyright-license">
+            <strong>Copyright Notice:   </strong>
+            All articles in this blog are licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+            unless stating additionally.
+          </li>
+         
+        </ul>
+<div>
+
+      
+      
+        
+	<div id="comment">
+		<!-- 来必力City版安装代码 -->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ4MS82MDQ5">
+		<script type="text/javascript">
+		   (function(d, s) {
+		       var j, e = d.getElementsByTagName(s)[0];
+
+		       if (typeof LivereTower === 'function') { return; }
+
+		       j = d.createElement(s);
+		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		       j.async = true;
+
+		       e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+		</script>
+		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 -->
+	</div>
+
+
+
+      
+      
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2019/08/28/notes-8/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">8.26读到3篇优秀的运营文章</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="toc-sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-小红书KOL投放"><span class="nav-number">1.</span> <span class="nav-text">1.小红书KOL投放</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#怎么投？"><span class="nav-number">1.1.</span> <span class="nav-text">怎么投？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#投给谁？"><span class="nav-number">1.2.</span> <span class="nav-text">投给谁？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-微信私域流量"><span class="nav-number">2.</span> <span class="nav-text">2.微信私域流量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#如何建立"><span class="nav-number">2.1.</span> <span class="nav-text">如何建立</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何运营"><span class="nav-number">2.2.</span> <span class="nav-text">如何运营</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#如何转化"><span class="nav-number">2.3.</span> <span class="nav-text">如何转化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-总结"><span class="nav-number">3.</span> <span class="nav-text">3. 总结</span></a></li></ol>
+    
+    </div>
+  </aside>
+
+</section>
+        
+      </div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2019 电商笔记 All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+
+
+  <script src="/js/dialog.js"></script>
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            电商笔记
+          </div>
+          <div class="panel-body">
+            Copyright © 2019 种一棵树最好的时间是十年前，其次是现在 All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+    <a id="menu-switch"><i class="fa fa-bars fa-lg"></i></a>
+  
+</body>
+</html>
